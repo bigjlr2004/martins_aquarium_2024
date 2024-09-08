@@ -1,0 +1,19 @@
+.owned-fish-block {
+  display: flex; /* Display the child items in a Flex layout*/
+  flex-wrap: wrap; /* Let the rows wrap if they run out of room */
+  justify-content: space-evenly; /* Evenly space the child elements */
+}
+
+.fish-card {
+  flex-basis: 16%; /* Make each child element the same size. */
+  border: 1px dotted black;
+  padding: 1em;
+  margin: 0.5em;
+}
+h3 {
+  text-align: center;
+}
+img {
+  width: 300px;
+  height: 200px;
+}
